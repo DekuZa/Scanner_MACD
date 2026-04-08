@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install ccxt pandas pandas_ta requests
+          pip install ccxt pandas pandas_ta requests pytz
 
       - name: Run Scanner
         env:
